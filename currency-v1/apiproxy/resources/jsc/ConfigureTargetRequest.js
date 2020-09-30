@@ -16,3 +16,4 @@
 context.setVariable('target.copy.pathsuffix', false);
 
 var test = 'adding test';
+var test1 = 'adding test';

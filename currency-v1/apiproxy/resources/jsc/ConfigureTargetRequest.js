@@ -14,5 +14,5 @@
  * limitations under the License.
  */
 context.setVariable('target.copy.pathsuffix', false);
-var test = 'test';
-var test1 = 'test1';
+
+var change = 'this please!';

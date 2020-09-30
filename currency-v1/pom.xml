@@ -227,33 +227,6 @@
 						</configuration>
 					</execution>
 					<!-- run unit tests -->
-					<execution>
-						<id>unit</id>
-						<phase>validate</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<executable>./node_modules/mocha/bin/mocha</executable>
-							<commandlineArgs>
-								test/unit
-							</commandlineArgs>
-						</configuration>
-					</execution>
-					<!-- run integration tests -->
-					<execution>
-						<id>integration</id>
-						<phase>install</phase>
-						<goals>
-							<goal>exec</goal>
-						</goals>
-						<configuration>
-							<executable>./node_modules/cucumber/bin/cucumber.js</executable>
-							<commandlineArgs>
-								target/test/integration/features --tags ${api.testtag}
-							</commandlineArgs>
-						</configuration>
-					</execution>
 				</executions>
 			</plugin>
 

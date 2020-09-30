@@ -40,10 +40,10 @@ Variable definitions:
 '
 
 docker run -d -p 9001:8080 \
-	-e APIGEE_ORG=. \
-	-e APIGEE_USERNAME=. \
-	-e APIGEE_PASSWORD=. \
-	-e API_DOMAIN_TEST=. \
-	-e API_DOMAIN_PROD=. \
-	-e SCM_URL=. \
+	-e APIGEE_ORG=amer-demo14 \
+	-e APIGEE_USERNAME=jeffreliu@google.com \
+	-e APIGEE_PASSWORD=Natures546!@ \
+	-e API_DOMAIN_TEST=https://amer-demo14-test.apigee.net/currency/v1  \
+	-e API_DOMAIN_PROD=https://amer-demo14-prod.apigee.net/currency/v1  \
+	-e SCM_URL=git@github.com:jeffkliu/apigee_cicd.git \
 --name my-ci apigee/ci

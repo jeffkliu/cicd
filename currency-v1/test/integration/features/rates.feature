@@ -20,16 +20,16 @@ Feature: Get Currency Rates Feature
 
 		Examples:
 			| requested_date | response_date |
-			| 2016-06-14     | 2016-06-14    |
-			| 2016-06-13     | 2016-06-13    |
-			| 2016-06-12     | 2016-06-10    |
-			| 2016-06-11     | 2016-06-10    |
-			| 2016-06-10     | 2016-06-10    |
+			| 2019-06-14     | 2019-06-14    |
+			| 2019-06-13     | 2019-06-13    |
+			| 2019-06-12     | 2019-06-12    |
+			| 2019-06-11     | 2019-06-11    |
+			| 2019-06-10     | 2019-06-10   |
 
 	Scenario: I should be able to set a base currency and exchange day
-		When I request all exchange rates with GBP as the base currency for 2016-05-10
+		When I request all exchange rates with GBP as the base currency for 2019-05-10
 		Then I should see GBP as the base currency
-		And I should see the rates for 2016-05-10
+		And I should see the rates for 2019-05-10
 
 	Scenario Outline: I should get an error for invalid date format
 		When I request all exchange rates for <invalid_date>

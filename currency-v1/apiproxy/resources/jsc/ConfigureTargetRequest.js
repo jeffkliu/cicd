@@ -15,4 +15,4 @@
  */
 context.setVariable('target.copy.pathsuffix', false);
 
-var test = 'pls work!;
+var test = 'pls work!';

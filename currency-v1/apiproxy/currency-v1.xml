@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="1" name="currency-v1">
-    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
-	<Description>@description</Description>
+<APIProxy revision="9" name="currency-v1">
+    <Basepaths>/currency/v1</Basepaths>
+    <Basepaths>/currency/v1/logs</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1601573113384</CreatedAt>
+    <CreatedBy>jeffreliu@google.com</CreatedBy>
+    <Description>commit e0c84b26252df3971bc3fb8e27ca0378214b60b2 from origin/prod branch by jenkins</Description>
+    <DisplayName>currency-v1</DisplayName>
+    <LastModifiedAt>1601573113384</LastModifiedAt>
+    <LastModifiedBy>jeffreliu@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8c6fce4ef815fa938dd7d71514f641126fadfed80294aee716b3f16282aa84754284cdca5fc2a2a1f4a6fa1a0d27b5a75aac58d176438d75c3185a48a60b78d2</ManifestVersion>
+    <Policies>
+        <Policy>AssignMessage.CopyRequest</Policy>
+        <Policy>AssignMessage.SetApigee404ErrorVariables</Policy>
+        <Policy>AssignMessage.SetInternalServerErrorVariables</Policy>
+        <Policy>AssignMessage.SetLogglyResponse</Policy>
+        <Policy>AssignMessage.SetResponseContentTypeToJson</Policy>
+        <Policy>AssignMessage.SetTarget404ErrorVariables</Policy>
+        <Policy>AssignMessage.SetTarget4XXErrorVariables</Policy>
+        <Policy>AssignMessage.SetTargetResource</Policy>
+        <Policy>ExtractVariables.GetTargetErrorMessage</Policy>
+        <Policy>JavaScript.ConfigureTargetRequest</Policy>
+        <Policy>JavaScript.LogToLoggly</Policy>
+        <Policy>RaiseFault.GoToFaultRules</Policy>
+        <Policy>RaiseFault.Json</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+        <ProxyEndpoint>loggly</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://ConfigureTargetRequest.js</Resource>
+        <Resource>jsc://LogToLoggly.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
 </APIProxy>

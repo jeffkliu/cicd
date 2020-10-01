@@ -1,0 +1,28 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "commit e0c84b26252df3971bc3fb8e27ca0378214b60b2 from origin/prod branch by jenkins",
+    "version": "9.0.0",
+    "title": "currency-v1",
+    "contact": {
+      "email": "jeffreliu@google.com"
+    }
+  },
+  "host": "amer-demo14-prod.apigee.net",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/currency/v1",
+  "paths": {
+    "/latest": {
+      "get": {
+        "operationId": "Get Latest Exchange Rates",
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignMessage.CopyRequest" version="SHA-512:3c9e766d4620f47f16a61b39806ff571680ee7a8b442e231bcf841433dbafe475506b6d30980fd2ee753a0b884b063a920fff0c2b96bb757eabceb075e6db379"/>
+        <VersionInfo resourceName="AssignMessage.SetApigee404ErrorVariables" version="SHA-512:561d67fc72c8d499379c1d6249ac56c27831207f5f103a88a00a9a6bdf9f94459298576dfc409b80d56f1a5b6f1b957d04630a748c2cb15ac5c7952772ac5c6f"/>
+        <VersionInfo resourceName="AssignMessage.SetInternalServerErrorVariables" version="SHA-512:7df5d03f1d2b207ebaff041629dd54c3575a15a392cb8a8bca6d810b015557bc9d94b9cd9bbf618851e688d7ad69e0d18a049d534a60c83f7412865be06d4aec"/>
+        <VersionInfo resourceName="AssignMessage.SetLogglyResponse" version="SHA-512:83f234ca700a733000df28e775d44902a2a2eaf70981c99b03d51b785953a9fce0340b265bb15ca5910d7b44ded101d5217f5c8588a0f2f23c2f319915604c64"/>
+        <VersionInfo resourceName="AssignMessage.SetResponseContentTypeToJson" version="SHA-512:2d9c4b91b1ce14e4ddf0a13d62a1713e3d6510589c0092996cdada83dff93f4f973ce44491db7c7edbf6b1ad2648c0bfe9b0ee114e8eaca361882ba8474d5dca"/>
+        <VersionInfo resourceName="AssignMessage.SetTarget404ErrorVariables" version="SHA-512:5352eecdf7c42faa8a2a747b67f3c4a1b586254b51d2223291fa25e9db015243a5237499a521515d38562073d4851faa94900270b1c1d39ad5fc28e178407dae"/>
+        <VersionInfo resourceName="AssignMessage.SetTarget4XXErrorVariables" version="SHA-512:9e76b4c1d9a332ee543f332c9112bdb2988529ef7b9dba80cd8e79a280adbd36ee28fc359fa88df6f58d8f100d5ea82b00151cc38fa9210b36cfe505da58ddd7"/>
+        <VersionInfo resourceName="AssignMessage.SetTargetResource" version="SHA-512:0bc5b038b65946b5fb01f93809349eecc9c3a08eadc0ac6074d6f6c1fe7c6662c54e3bb64996e40754fe4a0c9788a66417e200ad8da7aa617d4b007d86a7db4e"/>
+        <VersionInfo resourceName="ExtractVariables.GetTargetErrorMessage" version="SHA-512:e2864e494c7bcdcd753ab24f187817bb4d0fb18ee9ac586e7336561165d5e03b7f4f08f85dafa48b3221eadcda1345f5f00a4b51f351be46098b09ce389b07f9"/>
+        <VersionInfo resourceName="JavaScript.ConfigureTargetRequest" version="SHA-512:e16d687dc395de686f9a55773ac084ed5675800611a7769f5b5ccef384029877d706681ce51583ac2696abafd74a56395a5bd67224dc42080e8d96db99b06f9f"/>
+        <VersionInfo resourceName="JavaScript.LogToLoggly" version="SHA-512:26a967887a701acbeacd0714cb5760125c3f9c56aa5c05865d1e6231af82a8fd187ed36e836cef5a4f83562d15836de6a476e46ec295ac0c122edb26053ac1fb"/>
+        <VersionInfo resourceName="RaiseFault.GoToFaultRules" version="SHA-512:4e74d3d23476a6cc68830179eaff05c137c5acc477390625283bb43032581345ef56e3896e82858f55bff1381823d68f67939490bd42d6ae4c6b715dd648c7bf"/>
+        <VersionInfo resourceName="RaiseFault.Json" version="SHA-512:5b655f3a04454f05078c411deb271200ac38c5a5222a75ded2245ce2ef47f37da3daf16328f2a5a30b698026bb49045de72d32cffb9a2c720897e75c5a6b918a"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:306e87ce47bc053e16b4800f37f7105236bc9ee59330af1398679c7e38b3c0e134ced7daa8eaeb770c92f67c88d3165b114043e343f8679fe24984ec0c806fbb"/>
+        <VersionInfo resourceName="loggly" version="SHA-512:4475dc8d9054d76bd72eb147bb952b6c440c761ab78068107edbdc8163e9f4ecee0e266271499ab931f935ace82743c7345d635ce8b950252f765f869759a819"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://ConfigureTargetRequest.js" version="SHA-512:d62e108759ef786596a0782157b05875f10cb7d52f7f9f9f34d1111c79e8527f5420116d1158261faadbe8e37d480d850b575823458f32210d1a812fd409bc7b"/>
+        <VersionInfo resourceName="jsc://LogToLoggly.js" version="SHA-512:bbc01160af52d5ed8458a701f9abd01390b3c5024cc152a0a2c610c9d55fa5c8c7275f4e94fd10301b41a4fd3d9c3cec979bf8b002c74152871d0e0537a1635f"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c8373540f88545fba0cbc7d8f2ebace0148a6e50539d8486843435414adf9a3b67509387470d40f63b064802bc0b82669919152679906b9889d98223e59b00b9"/>
+    </TargetEndpoints>
+</Manifest>

@@ -73,7 +73,6 @@ module.exports = function () {
     base,
     callback
   ) {
-    console.log(this.apickli);
     var self = this;
     assertSuccessfulApiResponse(this.apickli)
       .then(function () {

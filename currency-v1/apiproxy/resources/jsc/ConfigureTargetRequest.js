@@ -14,8 +14,3 @@
  * limitations under the License.
  */
 context.setVariable('target.copy.pathsuffix', false);
-
-var test = 'pls work!';
-var maybe = 'sup!';
-var ryan = 'bundt';
-var test1 = 'just testing';
